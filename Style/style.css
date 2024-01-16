@@ -171,8 +171,9 @@ nav li:hover {
     font-size: 1rem;
     font-weight: 400;
 }
-.tour-content>ol{
-    list-style-type:circle ;
+
+.tour-content>ol {
+    list-style-type: circle;
 }
 
 .tour-content li {
@@ -668,6 +669,98 @@ nav li:hover {
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+}
+
+/* Perfect Place Container */
+
+.perfect-place {
+    width: 1170px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.perfect-place-container h2 {
+    color: var(--secondary-color);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.perfect-place-container p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    width: 530px;
+}
+
+.perfect-place-container ul {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    margin: 25px;
+}
+
+.perfect-place iframe {
+    border-radius: 20px;
+    width: 600px;
+    height: 500px;
+}
+
+.perfect-place-container .btn-main {
+    margin-top: 100px;
+}
+
+/* Subcriber Section style */
+.subscriber-section {
+    display: flex;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.subscriber-form {
+    border: 2px solid var(--third-color);
+    width: 475px;
+    height: 475px;
+}
+
+.subscriber-form h3 {
+    color: var(--secondary-color);
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.subscriber-form p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-left: 40px;
+}
+
+.subscriber-form input {
+    width: 390px;
+    height: 50px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.subscriber-form .btn-main{
+    width:393px;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 /* Meaia screen for small device */
