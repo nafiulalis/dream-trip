@@ -723,12 +723,13 @@ nav li:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .subscriber-form {
     border: 2px solid var(--third-color);
     width: 475px;
-    height: 475px;
+    height: 422px;
 }
 
 .subscriber-form h3 {
@@ -753,15 +754,117 @@ nav li:hover {
     width: 390px;
     height: 50px;
     padding: 15px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 40px;
     border-radius: 10px;
+    border: none;
+    background-color: rgba(19, 19, 24, 0.05);
 }
-.subscriber-form .btn-main{
-    width:393px;
+
+.subscriber-form .btn-main {
+    width: 393px;
     margin-top: 40px;
     margin-left: 40px;
 }
+
+.discount-box {
+    background-image: url("../Images/Rectangle\ 8\ \(1\).png");
+    margin-left: 25px;
+    border-radius: 16px;
+    flex: 1;
+}
+
+.discount-box-content {
+    background: var(--third-color);
+    width: 325px;
+    height: 120px;
+    border-radius: 16px;
+    transform: rotate(-19deg) translateX(230px) translateY(350px);
+}
+
+.discount-box-content h2 {
+    color: var(--primary-color);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+}
+
+.discount-box-content h4 {
+    color: var(--primary-color);
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: rgba(19, 19, 24, 0.05);
+    width: 100%;
+
+}
+
+/* footer Section style */
+
+.footer-title {
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    text-align: center;
+    width: 100%;
+}
+
+
+.description p {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-icons {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer-icons img {
+    cursor: pointer;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.break-point {
+    background-color: rgba(19, 19, 24, 0.10);
+    height: 2px;
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.all-rights-reserved h5 {
+    color:var(--secondary-color);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
 
 /* Meaia screen for small device */
 @media screen and (max-width:600px) {
