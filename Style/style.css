@@ -180,6 +180,152 @@ li:hover {
     height: 550px;
 }
 
+/* Destination Section */
+.destination-section {
+    width: 1170px;
+    height: auto;
+}
+
+
+.destination-section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.destination-content h2 {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-content p {
+    width: 640px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+}
+.destination-images{
+    width: 1170px;
+    height: auto;
+}
+
+.destination-images .first-row {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.destination-title-1 {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 300px;
+}
+
+.destination-title-2 {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: -300px;
+}
+
+.destination-images .second-row {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 25px;
+    margin-bottom: 0;
+
+} 
+.destination-title-3 {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: -400px;
+
+}
+.destination-title-4 {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 50px;
+
+}
+.destination-title-5 {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 450px;
+    
+
+}
+.destination-images .third-row {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+} 
+.destination-title-6 {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: -350px;
+
+}
+.destination-title-7 {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 230px;
+
+}
+
+
+
+
+
 /* Meaia screen for small device */
 @media screen and (max-width:600px) {
 
