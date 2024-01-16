@@ -578,6 +578,29 @@ li:hover {
     padding-left: 10px;
 }
 
+    /* Deals & Discount Style */
+
+
+
+.tour-details{
+    width: 1170px;
+    height: auto;
+}
+.tour-duration{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+.tour-duration img{
+    width: 30px;
+    height: 30px;
+}
+.time, .capacity ,.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* Meaia screen for small device */
