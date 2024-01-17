@@ -3,11 +3,6 @@
     font-family: Mulish;
     box-sizing: border-box;
 }
-
-.body {
-    overflow: hidden;
-}
-
 :root {
     --primary-color: #fff;
     --secondary-color: #131318;
@@ -720,6 +715,7 @@ nav li:hover {
 /* Subcriber Section style */
 .subscriber-section {
     display: flex;
+    justify-content: center;
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
@@ -731,6 +727,8 @@ nav li:hover {
     border: 2px solid var(--third-color);
     width: 475px;
     height: 422px;
+    flex: 1;
+
 }
 
 .subscriber-form h3 {
@@ -770,9 +768,10 @@ nav li:hover {
 
 .discount-box {
     background-image: url("../Images/Rectangle\ 8\ \(1\).png");
-    margin-left: 25px;
     border-radius: 16px;
     flex: 1;
+    background-repeat: no-repeat;
+    margin-left: 25px;
 }
 
 .discount-box-content {
@@ -780,7 +779,7 @@ nav li:hover {
     width: 325px;
     height: 120px;
     border-radius: 16px;
-    transform: rotate(-19deg) translateX(230px) translateY(350px);
+    transform: rotate(-19deg) translateX(150px) translateY(320px);
 }
 
 .discount-box-content h2 {
@@ -803,16 +802,10 @@ nav li:hover {
 }
 
 /* Footer Section */
-footer {
-    background-color: rgba(19, 19, 24, 0.05);
-    width: 100%;
-
-}
-
-/* footer Section style */
 
 .footer-title {
     background-color: rgba(19, 19, 24, 0.05);
+    margin: 0;
 }
 
 .main-footer {
@@ -863,7 +856,8 @@ footer {
     font-size: 16px;
     font-weight: 300;
     text-align: center;
-
+    margin-bottom: 0;
+    padding-bottom: 50px;
 }
 
 
@@ -896,11 +890,13 @@ footer {
     }
     .tour-section {
         grid-template-columns: repeat(1,1fr);
+        
     }
     .tour-image {
         width: 300px;
         height: 300px;
         margin-left: 0;
+        margin-bottom: 200px;
     }
     .first-row,
     .second-row,
@@ -932,5 +928,25 @@ footer {
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
+    }
+    .subscriber-section{
+        flex-direction: column;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footer-title{
+        max-width: 600px;
+    }
+    .description{
+        text-align: center;
+        padding: 25px;
+    }
+    .break-point{
+        width: 400px;
+    }
+    .discount-box {
+        height: 500px;
     }
 }
