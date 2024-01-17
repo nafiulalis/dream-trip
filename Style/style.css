@@ -606,13 +606,6 @@ nav li:hover {
 }
 
 
-/* .tour-details {
-    width: 1170px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 .tour-duration {
     background-image: url("../Images/Bg-1.png");
     width: 1170px;
@@ -681,6 +674,8 @@ nav li:hover {
 .perfect-place {
     width: 1170px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -715,6 +710,7 @@ nav li:hover {
     border-radius: 20px;
     width: 600px;
     height: 500px;
+    margin-top: 50px;
 }
 
 .perfect-place-container .btn-main {
@@ -929,6 +925,11 @@ footer {
     .tour-duration-middle
     {
         width:50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .perfect-place{
+        flex-direction: column;
         margin-left: auto;
         margin-right: auto;
     }
