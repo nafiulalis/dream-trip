@@ -313,7 +313,6 @@ nav li:hover {
 .bg>h4 {
     color: var(--primary-color);
     text-align: center;
-    /* font-family: Mulish; */
     font-size: 28px;
     font-weight: 800;
 }
@@ -413,6 +412,7 @@ nav li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .price-card {
@@ -898,9 +898,8 @@ footer {
         padding: 5px;
         align-items: center;
     }
-    .tour-section{
+    .tour-section {
         grid-template-columns: repeat(1,1fr);
-        padding-bottom: 200px;
     }
     .tour-image {
         width: 300px;
@@ -909,7 +908,9 @@ footer {
     }
     .first-row,
     .second-row,
-    .third-row{
+    .third-row,
+    .package-list
+    {
         flex-direction: column;
     }
     .first-row-left,.first-row-right,
@@ -918,5 +919,10 @@ footer {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .card-section-1{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 310px;
+
     }
 }
